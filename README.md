@@ -2,13 +2,45 @@
 
 Browser builds of games made with GameEngine
 ([jayrulez/GameEngine](https://github.com/jayrulez/GameEngine)), served by GitHub Pages at
-**https://jayrulez.github.io/GameEngineDemos/**.
+**https://jayrulez.github.io/GameEngineDemos/**. They need WebGPU: a recent Chrome or Edge on a
+computer.
 
-- `SkyHopper/`: Sky Hopper, a 3D platformer (the engine's `Data/SampleProjects/PlatformerGame`).
-  Its third-party assets and their licences are in `SkyHopper/CREDITS.md` and `SkyHopper/Licenses/`.
-- `PaperKid/`: PaperKid, an arcade paper route (the engine's `Data/SampleProjects/PaperKid`),
-  with its credits and licences the same way.
+## Sky Hopper
 
-Each game folder is a web export straight from the engine (the project's Web export preset, the
-Release web template): the page, the wasm player, its script, and the content paks. To update one,
-export again and replace the folder. The games need WebGPU (recent Chrome or Edge on desktop).
+A 3D platformer across five floating islands: collect coins, stomp crabs, skulls and bees, dodge
+saws and spiky balls, and reach the flag. Three lives for the whole run; stars and best scores are
+saved in your browser. Keyboard (WASD, Space, Escape) or a gamepad.
+
+**[Play Sky Hopper](https://jayrulez.github.io/GameEngineDemos/SkyHopper/)**
+
+<p>
+  <a href="https://jayrulez.github.io/GameEngineDemos/SkyHopper/"><img src="images/SkyHopper-Hud.png" width="32%" alt="Sky Hopper: jumping for a gem, the score rolling up"></a>
+  <a href="https://jayrulez.github.io/GameEngineDemos/SkyHopper/"><img src="images/SkyHopper-Clear.png" width="32%" alt="Sky Hopper: the level clear card with its tally and stars"></a>
+  <a href="https://jayrulez.github.io/GameEngineDemos/SkyHopper/"><img src="images/SkyHopper-Intro.png" width="32%" alt="Sky Hopper: a level's intro card"></a>
+</p>
+
+The engine's `Data/SampleProjects/PlatformerGame`. Credits and licences: `SkyHopper/CREDITS.md`
+and `SkyHopper/Licenses/`.
+
+## PaperKid
+
+An arcade paper route: ride round a town block and throw papers onto the subscribers' porches
+before time runs out, dodging cars, pedestrians, bins and cones. Five blocks, three lives, and a
+minimap of the block. Keyboard (WASD, Space, Escape) or a gamepad.
+
+**[Play PaperKid](https://jayrulez.github.io/GameEngineDemos/PaperKid/)**
+
+<p>
+  <a href="https://jayrulez.github.io/GameEngineDemos/PaperKid/"><img src="images/PaperKid-Play.png" width="32%" alt="PaperKid: riding a block, throwing a paper at a porch"></a>
+  <a href="https://jayrulez.github.io/GameEngineDemos/PaperKid/"><img src="images/PaperKid-Title.png" width="32%" alt="PaperKid: the title screen"></a>
+  <a href="https://jayrulez.github.io/GameEngineDemos/PaperKid/"><img src="images/PaperKid-Cleared.png" width="32%" alt="PaperKid: a block cleared"></a>
+</p>
+
+The engine's `Data/SampleProjects/PaperKid`. Credits and licences: `PaperKid/CREDITS.md` and
+`PaperKid/Licenses/`.
+
+## How the builds are made
+
+Each game folder is a web export straight from the engine: the project's Web export preset with the
+Release web template, giving the page, the wasm player, its script and the content paks. To update
+one, export again and replace the folder.
