@@ -36,6 +36,8 @@ minimap of the block. Keyboard (WASD, Space, Escape) or a gamepad.
   <a href="https://jayrulez.github.io/GameEngineDemos/PaperKid/"><img src="images/PaperKid-Cleared.png" width="32%" alt="PaperKid: a block cleared"></a>
 </p>
 
+Watch it played on a Steam Deck: [PaperKid gameplay video](https://youtu.be/syJlmIirg_o).
+
 The engine's `Data/SampleProjects/PaperKid`. Credits and licences: `PaperKid/CREDITS.md` and
 `PaperKid/Licenses/`.
 
