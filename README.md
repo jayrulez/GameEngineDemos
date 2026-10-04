@@ -1,11 +1,13 @@
-# Raptor Demos
+# GameEngine Demos
 
-Browser builds of games made with the Raptor engine
+Browser builds of games made with GameEngine
 ([jayrulez/GameEngine](https://github.com/jayrulez/GameEngine)), served by GitHub Pages at
 **https://jayrulez.github.io/GameEngineDemos/**.
 
 - `SkyHopper/`: Sky Hopper, a 3D platformer (the engine's `Data/SampleProjects/PlatformerGame`).
   Its third-party assets and their licences are in `SkyHopper/CREDITS.md` and `SkyHopper/Licenses/`.
+- `PaperKid/`: PaperKid, an arcade paper route (the engine's `Data/SampleProjects/PaperKid`),
+  with its credits and licences the same way.
 
 Each game folder is a web export straight from the engine (the project's Web export preset, the
 Release web template): the page, the wasm player, its script, and the content paks. To update one,

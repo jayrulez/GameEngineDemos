@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Raptor Demos</title>
+  <title>GameEngine Demos</title>
   <style>
     :root { --bg: #eaf4ff; --card: #ffffff; --ink: #233249; --soft: #5a6b85; --accent: #1f5faf; --gold: #ffc93c; }
     @media (prefers-color-scheme: dark) {
@@ -14,6 +14,7 @@
     main { max-width: 920px; margin: 0 auto; padding: 32px 16px 48px; }
     h1 { margin: 0 0 4px; font-size: 2rem; }
     .lead { margin: 0 0 28px; color: var(--soft); }
+    .game + .game { margin-top: 20px; }
     .game { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 20px; background: var(--card);
             border-radius: 16px; padding: 16px; box-shadow: 0 6px 18px rgba(31, 95, 175, 0.15); }
     .game img { width: 100%; border-radius: 10px; display: block; }
@@ -28,8 +29,8 @@
 </head>
 <body>
 <main>
-  <h1>Raptor Demos</h1>
-  <p class="lead">Games made with the Raptor engine, running in your browser on WebGPU.</p>
+  <h1>GameEngine Demos</h1>
+  <p class="lead">Games made with GameEngine, running in your browser on WebGPU.</p>
 
   <section class="game">
     <a href="SkyHopper/"><img src="images/SkyHopper-Play.png" alt="Sky Hopper: a small blue character on floating grass islands"></a>
@@ -42,6 +43,20 @@
       <a class="play" href="SkyHopper/">Play</a>
       <p class="small" style="margin-top:12px">About 30 MB to load. Needs a browser with WebGPU
          (recent Chrome or Edge on desktop). <a href="SkyHopper/CREDITS.md">Credits</a></p>
+    </div>
+  </section>
+
+  <section class="game">
+    <a href="PaperKid/"><img src="images/PaperKid-Play.png" alt="PaperKid: a kid on a bike throwing newspapers along a town street"></a>
+    <div>
+      <h2>PaperKid</h2>
+      <p>An arcade paper route: ride round a town block and throw papers onto the subscribers'
+         porches before time runs out, dodging cars, pedestrians, bins and cones. Five blocks,
+         three lives, and a minimap of the block.</p>
+      <p class="small">Keyboard: WASD to ride and steer, Space to throw, Escape to pause. A gamepad works too.</p>
+      <a class="play" href="PaperKid/">Play</a>
+      <p class="small" style="margin-top:12px">About 36 MB to load. Needs a browser with WebGPU
+         (recent Chrome or Edge on desktop). <a href="PaperKid/CREDITS.md">Credits</a></p>
     </div>
   </section>
 </main>
