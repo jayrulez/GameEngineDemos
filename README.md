@@ -41,6 +41,25 @@ Watch it played on a Steam Deck: [PaperKid gameplay video](https://youtu.be/syJl
 The engine's `Data/SampleProjects/PaperKid`. Credits and licences: `PaperKid/CREDITS.md` and
 `PaperKid/Licenses/`.
 
+## Snowline
+
+A snowboard time trial with tricks: carve through slalom gates, take the gems, and hit the kickers
+for spins and grabs. Three courses opened by medals (Meadow, Forest with its shortcut through the
+trees, and Ridge with a gap over a crevasse and an avalanche chasing you down); medal ghosts ride
+beside you and your best run becomes your own ghost. Keyboard (A and D, Space, Left Shift, E,
+Escape) or a gamepad.
+
+**[Play Snowline](https://jayrulez.github.io/GameEngineDemos/Snowline/)**
+
+<p>
+  <a href="https://jayrulez.github.io/GameEngineDemos/Snowline/"><img src="images/Snowline-Ridge.png" width="32%" alt="Snowline: riding Ridge, the avalanche behind"></a>
+  <a href="https://jayrulez.github.io/GameEngineDemos/Snowline/"><img src="images/Snowline-Title.png" width="32%" alt="Snowline: the title and its three courses"></a>
+  <a href="https://jayrulez.github.io/GameEngineDemos/Snowline/"><img src="images/Snowline-Results.png" width="32%" alt="Snowline: a run's results"></a>
+</p>
+
+The engine's `Data/SampleProjects/Snowline`. Credits and licences: `Snowline/CREDITS.md` and
+`Snowline/Licenses/`.
+
 ## How the builds are made
 
 Each game folder is a web export straight from the engine: the project's Web export preset with the
