@@ -57,6 +57,8 @@ Escape) or a gamepad.
   <a href="https://jayrulez.github.io/GameEngineDemos/Snowline/"><img src="images/Snowline-Results.png" width="32%" alt="Snowline: a run's results"></a>
 </p>
 
+Watch it played on a Steam Deck: [Snowline gameplay video](https://youtu.be/vlxxLiMEzp0).
+
 The engine's `Data/SampleProjects/Snowline`. Credits and licences: `Snowline/CREDITS.md` and
 `Snowline/Licenses/`.
 
