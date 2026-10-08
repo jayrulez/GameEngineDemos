@@ -62,6 +62,25 @@ Watch it played on a Steam Deck: [Snowline gameplay video](https://youtu.be/vlxx
 The engine's `Data/SampleProjects/Snowline`. Credits and licences: `Snowline/CREDITS.md` and
 `Snowline/Licenses/`.
 
+## Lamplight
+
+A night-time manor heist in pure stealth: keep to the dark (a meter shows how lit you are), put out
+lamps, throw pebbles to draw the guards' lanterns away, and pick locks while they look elsewhere.
+Four levels so far (the Gardens, the Stable Yard in the rain, the Ground Floor and the torch-lit
+Cellars), with checkpoints, loot and a ghost medal for never being seen. Keyboard (WASD, C, Left
+Shift, F, G, Q and E, Escape) or a gamepad.
+
+**[Play Lamplight](https://jayrulez.github.io/GameEngineDemos/Lamplight/)**
+
+<p>
+  <a href="https://jayrulez.github.io/GameEngineDemos/Lamplight/"><img src="images/Lamplight-Gardens.png" width="32%" alt="Lamplight: the Gardens, a guard growing suspicious"></a>
+  <a href="https://jayrulez.github.io/GameEngineDemos/Lamplight/"><img src="images/Lamplight-GroundFloor.png" width="32%" alt="Lamplight: the manor's ground floor, candlelit rooms"></a>
+  <a href="https://jayrulez.github.io/GameEngineDemos/Lamplight/"><img src="images/Lamplight-Results.png" width="32%" alt="Lamplight: away like a ghost"></a>
+</p>
+
+The engine's `Data/SampleProjects/Lamplight`. Credits and licences: `Lamplight/CREDITS.md` and
+`Lamplight/Licenses/`.
+
 ## How the builds are made
 
 Each game folder is a web export straight from the engine: the project's Web export preset with the
