@@ -79,6 +79,10 @@ Shift, F, G, Q and E, Escape) or a gamepad.
   <a href="https://jayrulez.github.io/GameEngineDemos/Lamplight/"><img src="images/Lamplight-Results.png" width="32%" alt="Lamplight: away like a ghost"></a>
 </p>
 
+A Steam Deck build: **[Lamplight for Steam Deck](https://github.com/jayrulez/GameEngineDemos/raw/main/downloads/Lamplight-SteamDeck.zip)**
+(a 12 MB zip). Unzip it into a folder on the Deck, then in Desktop Mode add the player (the
+executable in that folder) to Steam as a non-Steam game.
+
 The engine's `Data/SampleProjects/Lamplight`. Credits and licences: `Lamplight/CREDITS.md` and
 `Lamplight/Licenses/`.
 
