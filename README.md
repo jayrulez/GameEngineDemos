@@ -66,8 +66,9 @@ The engine's `Data/SampleProjects/Snowline`. Credits and licences: `Snowline/CRE
 
 A night-time manor heist in pure stealth: keep to the dark (a meter shows how lit you are), put out
 lamps, throw pebbles to draw the guards' lanterns away, and pick locks while they look elsewhere.
-Four levels so far (the Gardens, the Stable Yard in the rain, the Ground Floor and the torch-lit
-Cellars), with checkpoints, loot and a ghost medal for never being seen. Keyboard (WASD, C, Left
+Five levels (the Gardens, the Stable Yard in the rain, the Ground Floor, the torch-lit Cellars and
+the Upper Floor, with the vault and its alarm), with checkpoints, loot and a ghost medal for never
+being seen. Keyboard (WASD, C, Left
 Shift, F, G, Q and E, Escape) or a gamepad.
 
 **[Play Lamplight](https://jayrulez.github.io/GameEngineDemos/Lamplight/)**
