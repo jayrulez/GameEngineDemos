@@ -3,7 +3,7 @@
 Browser builds of games made with GameEngine
 ([jayrulez/GameEngine](https://github.com/jayrulez/GameEngine)), served by GitHub Pages at
 **https://jayrulez.github.io/GameEngineDemos/**. They need WebGPU: a recent Chrome or Edge on a
-computer.
+computer, or Chrome on an Android phone, where they play by touch, the phone held either way.
 
 ## Sky Hopper
 
